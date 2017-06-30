@@ -25,7 +25,7 @@ composer-connector-hlf         v0.5.2-20170313111819
 
 $ git clone https://github.com/hyperledger/composer-sample-applications.git
 <output redacted>
-$ cd composer-sample-applications/packages/getting-started
+$ cd composer-sample-applications/packages/digitalproperty-app
 $ sed -i.ORIG 's/\("composer-.*".*\):.*"/\1:"unstable"/g' package.json
 $ npm install --tag=unstable
 $ npm test
